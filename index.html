@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body class="font-jost">
+    <header class="sticky top-0">
+        <!-- navbar -->
+        <nav class="bg-white border-gray-200 dark:bg-gray-900">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="./img/logo.png" class="h-12 w-24" alt="Logo" />
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                <li>
+                    <a href="#" class="navlink_style" aria-current="page">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="navlink_style">About</a>
+                </li>
+                <li>
+                    <a href="#" class="navlink_style">Services</a>
+                </li>
+                <li>
+                    <a href="#" class="navlink_style">Pricing</a>
+                </li>
+                <li>
+                    <a href="#" class="navlink_style">Contact</a>
+                </li>
+                </ul>
+            </div>
+            <div class="hidden md:block">
+                <button class="custom_buttom_one">contact us</button>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <!-- first section -->
+    <section class=" bg-cover bg-center bg-hero-bg">
+        <div class="container mx-auto flex justify-between items-center ">
+            <div class="w-1/2 ">
+                <h2 class=" font-semibold text-5xl mb-10">Bringing Ideas to <br> Life with <span class="text-primary">Cielora.</span></h2>
+                <p class="text-base mb-10 text-justify">Welcome to Cielora, where we bring your ideas to life through innovative web and mobile app development. Our team of senior product designers specializes in React, Next js, Laravel, React-native, MERN Stack, and more. With our expertise in UI/UX solutions, we create engaging and user-friendly experiences that captivate your audience.</p>
+                <button class="custom_buttom_one border mr-3">contacts us</button>
+                <button class=" px-5 py-2.5 text-primary border hover:bg-primary hover:text-white duration-500 capitalize text-center rounded-md ml-3"> <span class="inline-flex ">see projects<img class="block ml-1 hover:hidden " src="./img/ArrowUpRight.svg" alt=""></span></button>
+            </div>
+            <div>
+                <img src="./img/hero-img.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- second/project section -->
+    <section class="bg-project-bg bg-cover bg-center">
+        <div class="mx-auto container text-center">
+            <p class="heading_name">Projects</p>
+            <h3 class="heading_style">Explore Our <br>Recent Projects</h3>
+            <p class="description_style mb-16">Check out our portfolio to see the projects we've completed for our clients.</p>
+        </div>
+        <div class="grid grid-cols-3 gap-14 mx-auto container">
+            <div class="bg-white px-5 shadow-xl rounded-md pb-10">
+                <img class="block mb-2" src="./img/projects/work-1.png" alt="work_1">
+                <div class="px-5">
+                    <h3 class="text-primary text-2xl font-semibold mb-5">BikerHouse Ecommerce WebSite</h3>
+                    <ul class="inline-block flex mb-2">
+                        <li class="projects_section_list_style">php-Laravel</li>
+                        <li class="projects_section_list_style">Laravel</li>
+                        <li class="projects_section_list_style">mySQL</li>
+                    </ul>
+                    <p class="text-xs font-normal mb-9">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+                    </p>
+                    <button class="bg-primary text-base text-white px-8 py-2 rounded">Explore</button>
+                </div>
+            </div>
+            <div class="bg-white px-5 shadow-xl rounded-md pb-10">
+                <img class="block mb-2" src="./img/projects/work2.png" alt="work_1">
+                <div class="px-5">
+                    <h3 class="text-primary text-2xl font-semibold mb-5">BikerHouse Ecommerce WebSite</h3>
+                    <ul class="inline-block flex mb-2">
+                        <li class="projects_section_list_style">php-Laravel</li>
+                        <li class="projects_section_list_style">Laravel</li>
+                        <li class="projects_section_list_style">mySQL</li>
+                    </ul>
+                    <p class="text-xs font-normal mb-9">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+                    </p>
+                    <button class="bg-primary text-base text-white px-8 py-2 rounded">Explore</button>
+                </div>
+            </div>
+            <div class="bg-white px-5 shadow-xl rounded-md pb-10">
+                <img class="block mb-2" src="./img/projects/work3.png" alt="work_1">
+                <div class="px-5">
+                    <h3 class="text-primary text-2xl font-semibold mb-5">BikerHouse Ecommerce WebSite</h3>
+                    <ul class="inline-block flex mb-2">
+                        <li class="projects_section_list_style">php-Laravel</li>
+                        <li class="projects_section_list_style">Laravel</li>
+                        <li class="projects_section_list_style">mySQL</li>
+                    </ul>
+                    <p class="text-xs font-normal mb-9">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+                    </p>
+                    <button class="bg-primary text-base text-white px-8 py-2 rounded">Explore</button>
+                </div>
+            </div>
+            <div class="bg-white px-5 shadow-xl rounded-md pb-10">
+                <img class="block mb-2" src="./img/projects/work-1.png" alt="work_1">
+                <div class="px-5">
+                    <h3 class="text-primary text-2xl font-semibold mb-5">BikerHouse Ecommerce WebSite</h3>
+                    <ul class="inline-block flex mb-2">
+                        <li class="projects_section_list_style">php-Laravel</li>
+                        <li class="projects_section_list_style">Laravel</li>
+                        <li class="projects_section_list_style">mySQL</li>
+                    </ul>
+                    <p class="text-xs font-normal mb-9">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+                    </p>
+                    <button class="bg-primary text-base text-white px-8 py-2 rounded">Explore</button>
+                </div>
+            </div>
+            <div class="bg-white px-5 shadow-xl rounded-md pb-10">
+                <img class="block mb-2" src="./img/projects/work-1.png" alt="work_1">
+                <div class="px-5">
+                    <h3 class="text-primary text-2xl font-semibold mb-5">BikerHouse Ecommerce WebSite</h3>
+                    <ul class="inline-block flex mb-2">
+                        <li class="projects_section_list_style">php-Laravel</li>
+                        <li class="projects_section_list_style">Laravel</li>
+                        <li class="projects_section_list_style">mySQL</li>
+                    </ul>
+                    <p class="text-xs font-normal mb-9">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+                    </p>
+                    <button class="bg-primary text-base text-white px-8 py-2 rounded">Explore</button>
+                </div>
+            </div>
+            <div class="bg-white px-5 shadow-xl rounded-md pb-10">
+                <img class="block mb-2" src="./img/projects/work-1.png" alt="work_1">
+                <div class="px-5">
+                    <h3 class="text-primary text-2xl font-semibold mb-5">BikerHouse Ecommerce WebSite</h3>
+                    <ul class="inline-block flex mb-2">
+                        <li class="projects_section_list_style">php-Laravel</li>
+                        <li class="projects_section_list_style">Laravel</li>
+                        <li class="projects_section_list_style">mySQL</li>
+                    </ul>
+                    <p class="text-xs font-normal mb-9">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+                    </p>
+                    <button class="bg-primary text-base text-white px-8 py-2 rounded">Explore</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section>
+        <div class="mx-auto container text-center w-1/2">
+            <p class="heading_name">Bringing</p>
+            <h3 class="heading_style">Cutting-edge Technologies <br>for Tailored Solutions</h3>
+            <p class="description_style mb-16 ">At Cielora, we leverage cutting-edge technologies such as React, Next.js, Laravel, React-native, and MERN Stack to deliver tailored solutions that meet your unique needs. Our agile development process ensures efficient and effective project execution.</p>
+        </div>
+        <div class="grid grid-cols-3 gap-14 mx-auto container">
+            <div class="bringing_section_div_style">
+                <img class=" bringing_section_img_size" src="./img/technologies/tech-02.png" alt="tech_two">
+                <h3 class="font-semibold text-[32px]">Cutting-edge <br>Technologies</h3>
+                <p class="font-normal text-base text-xl">We utilize the latest technologies to build innovative solutions.</p>
+            </div>
+            <div class="bringing_section_div_style"></div>
+                <img class=" bringing_section_img_size" src="./img/technologies/tech-02.png" alt="tech_two">
+                <h3 class="font-semibold text-[32px]">Cutting-edge <br>Technologies</h3>
+                <p class="font-normal text-base text-xl">We utilize the latest technologies to build innovative solutions.</p>
+            </div>
+            <div class="bringing_section_div_style"></div>
+                <img class=" bringing_section_img_size" src="./img/technologies/tech-02.png" alt="tech_two">
+                <h3 class="font-semibold text-[32px]">Cutting-edge <br>Technologies</h3>
+                <p class="font-normal text-base text-xl">We utilize the latest technologies to build innovative solutions.</p>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="bg-bringing-bg bg-cover bg-center pb-20">
+        <div class="mx-auto container text-center w-1/2">
+            <p class="heading_name">Bringing</p>
+            <h3 class="heading_style">Cutting-edge Technologies <br>for Tailored Solutions</h3>
+            <p class="description_style mb-16 ">At Cielora, we leverage cutting-edge technologies such as React, Next.js, Laravel, React-native, and MERN Stack to deliver tailored solutions that meet your unique needs. Our agile development process ensures efficient and effective project execution.</p>
+        </div>
+        <div class="grid grid-cols-3 mx-auto container gap-11">
+            <div class="bg-[#F3FFFC] rounded-lg border-[1px] border-primary p-5 w-[380px] h-[475px]">
+                <img class="block h-[200px] w-[200px] mx-auto mb-9 mt-2" src="./img/technologies/tech-02.png" alt="work_2">
+                <div class="text-center">
+                    <h3 class=" text-[32px] font-semibold my-9">Cutting-edge <br>Technologies</h3>
+                    <p class="text-xl font-normal text-base">
+                        We utilize the latest technologies to build innovative solutions.
+                    </p>
+                </div>
+            </div>
+            <div class="bg-[#F3FFFC] rounded-lg border-[1px] border-primary p-5 w-[380px] h-[475px]">
+                <img class="block h-[200px] w-[200px] mx-auto mb-9 mt-2" src="./img/technologies/tech-01.png" alt="work_1">
+                <div class="text-center">
+                    <h3 class=" text-[32px] font-semibold my-9">Tailored Solutions <br>For You</h3>
+                    <p class="text-xl font-normal text-base">
+                        We customize our solutions to perfectly fit your requirements.
+                    </p>
+                </div>
+            </div>
+            <div class="bg-[#F3FFFC] rounded-lg border-[1px] border-primary p-5 w-[380px] h-[475px]">
+                <img class="block h-[200px] w-[200px] mx-auto mt-2" src="./img/technologies/tech-03.png" alt="work_3">
+                <div class="text-center">
+                    <h3 class=" text-[32px] font-semibold my-9">Agile Development <br>Process</h3>
+                    <p class="text-xl font-normal text-base">
+                        Our agile development process ensures timely and efficient project delivery.
+                    </p>
+                </div>
+            </div>
+            
+            
+            
+        </div>
+    </section>
+    <!-- team section -->
+     <section class="bg-team-bg bg-cover bg-center pt-7 pb-32">
+        <div class="mx-auto container text-center w-1/2">
+            <p class="heading_name">Experienced</p>
+            <h3 class="heading_style">Meet Our Team</h3>
+            <p class="description_style ">Get to know the talented individuals behind <span class="text-primary">Cielora.</span></p>
+        </div>
+        <div class="mx-auto container text-center grid grid-cols-5 gap-16 mb-16">
+            <div class="flex flex-col">
+                <img class="block" src="./img/Muktadir-vai.png" alt="muktadir-vai">
+                <div>
+                    <p class="font-semibold text-base">Muktadir Hossain</p>
+                    <p class="italic text-xs">MERN Stack Dev.</p>
+                    <ul class="grid grid-cols-3 px-10">
+                        <li> <img src="/img/icon/Group 4.svg" alt=""></li>
+                        <li> <img src="/img/icon/Group 5.svg" alt=""></li>
+                        <li> <img src="/img/icon/Group 6.svg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex flex-col">
+                <img class="block" src="./img/topu-vai.png" alt="muktadir-vai">
+                <div>
+                    <p class="font-semibold text-base">Muktadir Hossain</p>
+                    <p class="italic text-xs">MERN Stack Dev.</p>
+                    <ul class="grid grid-cols-3 px-10">
+                        <li> <img src="/img/icon/Group 4.svg" alt=""></li>
+                        <li> <img src="/img/icon/Group 5.svg" alt=""></li>
+                        <li> <img src="/img/icon/Group 6.svg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex flex-col">
+                <img class="block" src="./img/Muktadir-vai.png" alt="muktadir-vai">
+                <div>
+                    <p class="font-semibold text-base">Muktadir Hossain</p>
+                    <p class="italic text-xs">MERN Stack Dev.</p>
+                    <ul class="grid grid-cols-3 px-10">
+                        <li> <img src="/img/icon/Group 4.svg" alt=""></li>
+                        <li> <img src="/img/icon/Group 5.svg" alt=""></li>
+                        <li> <img src="/img/icon/Group 6.svg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex flex-col">
+                <img class="block" src="./img/Muktadir-vai.png" alt="muktadir-vai">
+                <div>
+                    <p class="font-semibold text-base">Muktadir Hossain</p>
+                    <p class="italic text-xs">MERN Stack Dev.</p>
+                    <ul class="grid grid-cols-3 px-10">
+                        <li> <img src="/img/icon/Group 4.svg" alt=""></li>
+                        <li> <img src="/img/icon/Group 5.svg" alt=""></li>
+                        <li> <img src="/img/icon/Group 6.svg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex flex-col">
+                <img class="block" src="./img/Muktadir-vai.png" alt="muktadir-vai">
+                <div>
+                    <p class="font-semibold text-base">Muktadir Hossain</p>
+                    <p class="italic text-xs">MERN Stack Dev.</p>
+                    <ul class="grid grid-cols-3 px-10">
+                        <li> <img src="/img/icon/Group 4.svg" alt=""></li>
+                        <li> <img src="/img/icon/Group 5.svg" alt=""></li>
+                        <li> <img src="/img/icon/Group 6.svg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="mx-auto container text-center flex justify-center gap-16">
+            <div class="flex flex-col">
+                <img class="block" src="./img/Muktadir-vai.png" alt="muktadir-vai">
+                <div>
+                    <p class="font-semibold text-base">Muktadir Hossain</p>
+                    <p class="italic text-xs">MERN Stack Dev.</p>
+                    <ul class="grid grid-cols-3 px-10">
+                        <li> <img src="/img/icon/Group 4.svg" alt=""></li>
+                        <li> <img src="/img/icon/Group 5.svg" alt=""></li>
+                        <li> <img src="/img/icon/Group 6.svg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex flex-col">
+                <img class="block" src="./img/Muktadir-vai.png" alt="muktadir-vai">
+                <div>
+                    <p class="font-semibold text-base">Muktadir Hossain</p>
+                    <p class="italic text-xs">MERN Stack Dev.</p>
+                    <ul class="grid grid-cols-3 px-10">
+                        <li> <img src="/img/icon/Group 4.svg" alt=""></li>
+                        <li> <img src="/img/icon/Group 5.svg" alt=""></li>
+                        <li> <img src="/img/icon/Group 6.svg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex flex-col">
+                <img class="block" src="./img/Muktadir-vai.png" alt="muktadir-vai">
+                <div>
+                    <p class="font-semibold text-base">Muktadir Hossain</p>
+                    <p class="italic text-xs">MERN Stack Dev.</p>
+                    <ul class="grid grid-cols-3 ">
+                        <li> <img src="/img/icon/Group 4.svg" alt=""></li>
+                        <li> <img src="/img/icon/Group 5.svg" alt=""></li>
+                        <li> <img src="/img/icon/Group 6.svg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- footer section -->
+     <section class="bg-primary pt-10">
+            <div class="grid grid-cols-2 container mx-auto pl-10 pt-5">
+                <div class="grid grid-cols-3">
+                    <div>
+                        <p class="text-white font-semibold text-3xl">Quick Links</p>
+                        <p class="text-white font-medium text-2xl"><a href="#">Home</a></p>
+                        <p class="text-white font-medium text-2xl"><a href="#">Project </a></p>
+                        <p class="text-white font-medium text-2xl"><a href="#">Contact</a></p>
+                        <p class="text-white font-medium text-2xl"><a href="#">About</a></p>
+                    </div>
+                    <div>
+                        <p class="text-white font-semibold text-3xl">Quick Links</p>
+                        <p class="text-white font-medium text-2xl"><a href="#">Home</a></p>
+                        <p class="text-white font-medium text-2xl"><a href="#">Project </a></p>
+                        <p class="text-white font-medium text-2xl"><a href="#">Contact</a></p>
+                        <p class="text-white font-medium text-2xl"><a href="#">About</a></p>
+                    </div>
+                    <div>
+                        <p class="text-white font-semibold text-3xl">Quick Links</p>
+                        <p class="text-white font-medium text-2xl"><a href="#">Home</a></p>
+                        <p class="text-white font-medium text-2xl"><a href="#">Project </a></p>
+                        <p class="text-white font-medium text-2xl"><a href="#">Contact</a></p>
+                        <p class="text-white font-medium text-2xl"><a href="#">About</a></p>
+                    </div>
+                </div>
+                <div> 
+                    <p class="text-white font-semibold text-[28px]">
+                        Get In Touch 
+                    </p>
+                    <input type="text" name="" id="" placeholder="Enter Your Email" class="bg-[#1E5044] text-white placeholder:text-white my-5 w-3/4 px-5 py-1 rounded"><br>
+                    <button class="font-jost px-5 py-2.5 text-primary border bg-white capitalize text-center rounded-md "> <span class="inline-flex ">Get in touch <img class="block ml-1 " src="./img/icon/ArrowUpRight.svg" alt=""></span></button>
+                </div>
+            </div>
+        <footer class="text-center mt-24">
+            <p>Copyright © 2024 | All Rights Reserved by Cielora.</p>
+        </footer>
+     </section>
+
+</body>
+</html>

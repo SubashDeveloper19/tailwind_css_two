@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .navlink_style {
+      @apply block py-2 px-3 text-primary rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent
+    }
+    .custom_buttom_one{
+        @apply bg-primary font-jost px-5 py-2.5 text-white capitalize text-center rounded-md hover:bg-primary/80
+    }
+    .heading_name{
+        @apply text-2xl text-texT_primary font-medium mb-2
+    }
+    .heading_style{
+      @apply text-primary font-semibold text-5xl mb-3
+    }
+    .description_style{
+      @apply text-texT_primary/100 text-xl font-normal text-base
+    }
+    .projects_section_list_style{
+      @apply text-primary bg-primary/15 mx-1 rounded-full px-3  text-xs
+    }
+    /* .bringing_section_img_size{
+      @apply h-[200px] w-[200px] 
+    }
+    .bringing_section_div_style{
+      @apply border-primary border-[1px]
+    } */
+      
+  }
